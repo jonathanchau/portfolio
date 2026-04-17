@@ -5,37 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="../style.css">
+    <script type="module" src="../global.js"></script>
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../projects/index.html">Projects</a></li>
-            <li><a href="../contact/index.html" class ="current">Contact</a></li>
-            <li><a href="https://github.com/jonathanchau" target="_blank">Github</a></li>
-            <li><a href="../resume/index.html">Resume</a></li>
-        </ul>
-    </nav>
 
     <h1>Contact Information</h1>
 
-    <form action="mailto:jrchau@ucsd.edu" method="POST" enctype="text/plain">
-        <label>
-            Email:
-            <input type="email" name="email">
-        </label>
-        <br><br>
+    <form action="mailto:jrchau@ucsd.edu" method="GET">
         <label>
             Subject:
             <input name="subject">
         </label>
-        <br><br>
+
         <label>
             Message:
             <textarea name="body"></textarea>
         </label>
-        <br><br>
+
         <button>Submit</button>
     </form>
 </body>

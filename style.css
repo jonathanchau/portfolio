@@ -1,7 +1,4 @@
 body {
-  /* Set line height to 1.5 times the font size
-	   and use the OS’s UI font as the website font
-	 */
   font: 100%/1.5 system-ui;
   max-width: 100ch;
   margin-inline: auto;
@@ -11,13 +8,7 @@ body {
 html {
   --color-accent: oklch(65% 50% 0);
   accent-color: var(--color-accent);
-}
-
-body {
-  font: 100%/1.5 system-ui;
-  max-width: 100ch;
-  margin-inline: auto;
-  padding: 1rem;
+  color-scheme: light dark;
 }
 
 img {
@@ -28,12 +19,8 @@ img {
 nav {
   display: flex;
   margin-bottom: 2rem;
-  border-bottom: 1px solid oklch(80% 3% 200);
-}
-
-nav ul,
-nav li {
-  display: contents;
+  --border-color: oklch(50% 10% 200 / 40%);
+  border-bottom: 1px solid var(--border-color);
 }
 
 nav a {
@@ -45,20 +32,20 @@ nav a {
 }
 
 nav a.current {
-  border-bottom: 0.4em solid oklch(80% 3% 200);
+  border-bottom: 0.4em solid var(--border-color);
   padding-bottom: 0.1em;
 }
 
 nav a:hover {
   border-bottom: 0.4em solid var(--color-accent);
   padding-bottom: 0.1em;
-  background-color: oklch(from var(--color-accent) 95% 5% h);
+  background-color: color-mix(in oklch, var(--color-accent), canvas 85%);
 }
 
-/* Contact Form */
 input,
 textarea,
-button {
+button,
+select {
   font: inherit;
 }
 
@@ -79,7 +66,6 @@ form button {
   width: fit-content;
 }
 
-/* Projects */
 .projects {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
@@ -91,6 +77,10 @@ form button {
   grid-template-rows: subgrid;
   grid-row: span 3;
   gap: 1em;
+}
+
+.projects h2 {
+  margin: 0;
 }
 
 h1 {
@@ -107,13 +97,20 @@ h6 {
   text-wrap: balance;
 }
 
-.projects h2 {
-  margin: 0;
-}
-
-
-/* Resume */
 iframe {
   border: 1px solid oklch(80% 3% 200);
   border-radius: 8px;
+}
+
+.color-scheme {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 80%;
+}
+
+html {
+  --color-accent: oklch(65% 50% 0);
+  accent-color: var(--color-accent);
+  color-scheme: light dark;
 }
