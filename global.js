@@ -21,26 +21,27 @@ let nav = document.createElement('nav');
 document.body.prepend(nav);
 
 for (let p of pages) {
-  let url = p.url;
+    let a = document.createElement('a');
+    let url = p.url;
 
-  if (!url.startsWith('http')) {
-    url = BASE_PATH + url;
-  }
+    if (!url.startsWith('http')) {
+        url = location.origin + BASE_PATH + url;
+    }
 
-  let a = document.createElement('a');
-  a.href = url;
-  a.textContent = p.title;
+    a.href = url;
+    a.textContent = p.title;
 
-  a.classList.toggle(
-    'current',
-    a.host === location.host && a.pathname === location.pathname
-  );
+    a.classList.toggle(
+        'current',
+        a.host === location.host &&
+        a.pathname.replace(/\/$/, '') === location.pathname.replace(/\/$/, '')
+    );
 
-  if (a.host !== location.host) {
-    a.target = '_blank';
-  }
+    if (a.host !== location.host) {
+        a.target = '_blank';
+    }
 
-  nav.append(a);
+    nav.append(a);
 }
 
 
