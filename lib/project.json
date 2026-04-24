@@ -1,0 +1,20 @@
+[
+  {
+    "title": "CheckIt Occupancy Platform",
+    "year": "2025",
+    "image": "../images/IMG_6787.jpeg",
+    "description": "A real-time room occupancy platform using sensors, databases, and a web dashboard to help students see room availability."
+  },
+  {
+    "title": "MyVitto Digital Business Card",
+    "year": "2024",
+    "image": "../images/IMG_6787.jpeg",
+    "description": "A digital business card platform built for businesses, schools, and professionals to share contact information more efficiently."
+  },
+  {
+    "title": "Media Bias Analysis Tool",
+    "year": "2024",
+    "image": "../images/IMG_6787.jpeg",
+    "description": "A sentiment analysis project studying how media outlets may show political bias through non-political topics."
+  }
+]
