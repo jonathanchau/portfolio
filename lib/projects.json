@@ -2,19 +2,73 @@
   {
     "title": "CheckIt Occupancy Platform",
     "year": "2025",
-    "image": "../images/IMG_6787.jpeg",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
     "description": "A real-time room occupancy platform using sensors, databases, and a web dashboard to help students see room availability."
   },
   {
     "title": "MyVitto Digital Business Card",
     "year": "2024",
-    "image": "../images/IMG_6787.jpeg",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
     "description": "A digital business card platform built for businesses, schools, and professionals to share contact information more efficiently."
   },
   {
     "title": "Media Bias Analysis Tool",
     "year": "2024",
-    "image": "../images/IMG_6787.jpeg",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
     "description": "A sentiment analysis project studying how media outlets may show political bias through non-political topics."
+  },
+  {
+    "title": "Processed Foods Visualization",
+    "year": "2026",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "A DSC 106 visualization showing which stores have the most highly processed food items."
+  },
+  {
+    "title": "NYPD Complaints Visualization",
+    "year": "2026",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "A persuasive visualization project using NYPD complaint data to communicate different arguments."
+  },
+  {
+    "title": "McDonald's Nutrition Analysis",
+    "year": "2024",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "A data analysis project exploring calories, nutrients, correlations, and patterns in McDonald's menu data."
+  },
+  {
+    "title": "Portfolio Website",
+    "year": "2026",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "A personal portfolio website built with HTML, CSS, and JavaScript."
+  },
+  {
+    "title": "Resume Page",
+    "year": "2026",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "A webpage that embeds a PDF resume directly into the site."
+  },
+  {
+    "title": "Theme Switcher",
+    "year": "2026",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "A JavaScript feature that allows users to switch between light, dark, and automatic color schemes."
+  },
+  {
+    "title": "Contact Form",
+    "year": "2026",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "A contact page with a mailto form that sends subject and message data through URL parameters."
+  },
+  {
+    "title": "Micromobility Speed Sensor",
+    "year": "2026",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "A concept for using sensors and dashboards to help UCSD monitor e-bike and scooter speeding."
+  },
+  {
+    "title": "Arcade Room Occupancy Prototype",
+    "year": "2025",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "A prototype idea for detecting whether shared community machines and rooms are currently in use."
   }
 ]
